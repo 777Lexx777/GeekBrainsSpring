@@ -21,7 +21,7 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 @ComponentScan("ru.geekbrains")
 public class AppConfig implements WebMvcConfigurer {
 
-    private ApplicationContext applicationContext;
+    private ApplicationContext applicationContext ;
 
     @Autowired
     public void setApplicationContext(ApplicationContext applicationContext) {

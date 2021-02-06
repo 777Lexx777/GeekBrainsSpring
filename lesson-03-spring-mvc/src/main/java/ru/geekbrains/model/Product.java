@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class Product { //implements UserDetails
 
     private long id;
-    private String nameProduct;
+    private String nameProduct ;
     private int price;
 
     public Product() {

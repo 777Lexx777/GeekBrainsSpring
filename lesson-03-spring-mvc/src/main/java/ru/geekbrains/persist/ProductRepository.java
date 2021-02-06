@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Repository
 public class ProductRepository {
-    private final Map<Long, Product> productMap = new ConcurrentHashMap<>();
+    private final Map<Long, Product> productMap = new ConcurrentHashMap <> ();
 
     public Map<Long, Product> getProductMap() { return productMap; }
 

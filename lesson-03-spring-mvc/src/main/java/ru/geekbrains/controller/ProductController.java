@@ -14,7 +14,8 @@ import ru.geekbrains.persist.ProductRepository;
 public class ProductController {
     private static final Logger logger = LoggerFactory.getLogger(ProductController.class);
 
-    private final ProductRepository productRepository;
+
+    private final ProductRepository productRepository ;
 
     @Autowired
     public ProductController(ProductRepository productRepository) {
